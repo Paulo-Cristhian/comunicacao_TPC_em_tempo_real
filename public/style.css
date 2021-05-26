@@ -1,0 +1,115 @@
+body{
+    background-color: #303030;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.v-hide{
+    visibility: hidden;
+    width: 0px;
+    height: 0px;
+    transform: scale(0);
+    transition: 0s;
+}
+.dn{
+    display: none !important;
+}
+
+.bg-image{
+    background-image: url("assets/img/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    position: fixed;
+}
+.central-graph
+{
+    width: 900px;
+    height: 500px;   
+}
+.base-chart{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.base-graph{
+    background-color: rgba(255, 255, 255, 0.165);
+    border-radius: 5px;
+    padding: 20px;
+    transition: 0.3s;
+}
+.base-alter-graph{
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.select-graph{
+    width: 250px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.165);
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu{
+    background-color: rgba(255,255,255,0.165);
+    border-radius: 5px;
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    font-size: 20px;
+}
+.item-menu{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.item-menu:hover{
+    color: #000;
+}
+
+  a:hover,  a:active, a:visited, a:link {
+    text-decoration: none;
+    color: #303030;
+  }
+  
+  .navresp{
+    justify-content: flex-end;
+    align-items: center;
+    height: 200px;
+  }
+
+ 
+ 
+
+#pie{
+    background-image: url(assets/icons/pie.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+#bar{
+    background-image: url(assets/icons/bar.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+#geo{
+    background-image: url(assets/icons/geo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%;
+}
+
+
+.responder{
+    background-color: rgba(255,255,255,0.165);
+    padding: 50px;
+    border-radius: 5px;
+}
